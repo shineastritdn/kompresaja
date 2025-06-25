@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Book Kompresaja</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .gradient-header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .gradient-title {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .section-card {
+            background: #fff;
+            border-radius: 1rem;
+            box-shadow: 0 8px 24px rgba(30,58,138,0.08), 0 1.5px 4px rgba(59,130,246,0.08);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .badge {
+            display: inline-block;
+            background: #fbbf24;
+            color: #1e3a8a;
+            font-weight: bold;
+            border-radius: 0.5rem;
+            padding: 0.2rem 0.7rem;
+            font-size: 0.9rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 via-blue-100 to-yellow-50 min-h-screen">
+    <div class="max-w-3xl mx-auto px-4 py-8">
+        <div class="gradient-header rounded-2xl shadow-lg p-6 mb-8 flex flex-col items-center">
+            <i class="fas fa-book-open text-yellow-300 text-5xl mb-2"></i>
+            <h1 class="text-4xl font-bold text-white mb-2">Manual Book <span class="gradient-title">Kompresaja</span></h1>
+            <span class="badge">Versi 1.0.0</span>
+            <div class="text-blue-100 mt-2">Diperbarui: 24 Juni 2025</div>
+        </div>
+        <div class="section-card">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-info-circle text-yellow-400 mr-2"></i>1. Pendahuluan</h2>
+            <p class="mb-2"><b>Tentang Kompresaja:</b> Kompresaja adalah aplikasi web yang memudahkan pengguna untuk mengompresi berbagai jenis file langsung dari browser. Dengan desain yang intuitif dan dukungan format yang luas, Kompresaja membantu menghemat ruang penyimpanan dan mempercepat pengiriman file secara online.</p>
+            <p class="mb-0"><b>Tujuan Manual Book:</b> Dokumen ini disusun untuk memandu pengguna dalam menggunakan aplikasi Kompresaja, mulai dari proses unggah file hingga mengunduh hasil kompresi.</p>
+        </div>
+        <div class="section-card">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-desktop text-yellow-400 mr-2"></i>2. Persyaratan Sistem</h2>
+            <ul class="list-disc list-inside mb-2">
+                <li>Komputer, laptop, atau perangkat seluler dengan akses internet</li>
+            </ul>
+            <p class="mb-2"><b>Browser yang Didukung:</b></p>
+            <ul class="list-disc list-inside mb-0">
+                <li>Google Chrome (versi terbaru)</li>
+                <li>Mozilla Firefox</li>
+                <li>Microsoft Edge</li>
+            </ul>
+        </div>
+        <div class="section-card">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-star text-yellow-400 mr-2"></i>3. Fitur Utama</h2>
+            <div class="overflow-x-auto mb-2">
+                <table class="min-w-full text-left text-gray-700 border">
+                    <thead class="bg-blue-100"><tr><th class="border px-2 py-1">Fitur</th><th class="border px-2 py-1">Deskripsi</th></tr></thead>
+                    <tbody>
+                        <tr><td class="border px-2 py-1">Kompresi Satu Klik</td><td class="border px-2 py-1">Kompres file hanya dengan satu tombol</td></tr>
+                        <tr><td class="border px-2 py-1">Dukungan Multi-Format</td><td class="border px-2 py-1">Mendukung dokumen, gambar, PDF, dan lainnya</td></tr>
+                        <tr><td class="border px-2 py-1">Antarmuka Responsif</td><td class="border px-2 py-1">Tampilan dapat menyesuaikan dengan berbagai perangkat</td></tr>
+                        <tr><td class="border px-2 py-1">Statistik Kompresi Real-time</td><td class="border px-2 py-1">Menampilkan ukuran sebelum dan sesudah kompresi</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="section-card">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-compass text-yellow-400 mr-2"></i>4. Panduan Penggunaan</h2>
+            <div class="mb-2"><span class="font-bold text-blue-700">4.1 Akses Aplikasi</span></div>
+            <ol class="list-decimal list-inside mb-4">
+                <li>Buka browser favorit Anda</li>
+                <li>Kunjungi: <span class="text-blue-600">https://kompresaja.web.app</span> <i>(contoh alamat)</i></li>
+            </ol>
+            <div class="mb-2"><span class="font-bold text-blue-700">4.2 Mengompresi File</span></div>
+            <ol class="list-decimal list-inside mb-4">
+                <li>Klik tombol <b>"Unggah File"</b></li>
+                <li>Pilih file dari perangkat Anda</li>
+                <li>Setelah file berhasil diunggah, klik <b>"Kompres Sekarang"</b></li>
+                <li>Tunggu proses kompresi selesai</li>
+                <li>Klik tombol <b>"Unduh Hasil"</b> untuk mendapatkan file yang sudah dikompres</li>
+            </ol>
+            <div class="mb-2"><span class="font-bold text-blue-700">4.3 Melihat Statistik Kompresi</span></div>
+            <ul class="list-disc list-inside mb-4">
+                <li>Ukuran file sebelum dikompresi</li>
+                <li>Ukuran file sesudah dikompresi</li>
+                <li>Persentase penghematan ruang</li>
+            </ul>
+            <div class="mb-2"><span class="font-bold text-blue-700">4.4 Format File yang Didukung</span></div>
+            <ul class="list-disc list-inside mb-0">
+                <li>Dokumen: .pdf, .docx</li>
+                <li>Gambar: .jpg, .gif .png</li>
+                <li>Lainnya: .txt, .csv</li>
+            </ul>
+        </div>
+        <div class="section-card">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-shield-alt text-yellow-400 mr-2"></i>5. Keamanan dan Privasi</h2>
+            <ul class="list-disc list-inside mb-0">
+                <li>File yang Anda unggah tidak disimpan di server lebih dari 1 jam.</li>
+                <li>Tidak ada data pribadi yang dikumpulkan saat proses kompresi.</li>
+                <li>Setiap unggahan bersifat terenkripsi.</li>
+            </ul>
+        </div>
+        <div class="section-card">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-lightbulb text-yellow-400 mr-2"></i>6. Tips Penggunaan</h2>
+            <ul class="list-disc list-inside mb-0">
+                <li>Kompres file dalam jumlah kecil untuk hasil lebih cepat</li>
+                <li>Gunakan koneksi internet stabil</li>
+                <li>Jangan tutup browser saat proses kompresi berlangsung</li>
+            </ul>
+        </div>
+        <div class="section-card">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-tools text-yellow-400 mr-2"></i>7. Troubleshooting</h2>
+            <div class="overflow-x-auto mb-2">
+                <table class="min-w-full text-left text-gray-700 border">
+                    <thead class="bg-blue-100"><tr><th class="border px-2 py-1">Masalah</th><th class="border px-2 py-1">Solusi</th></tr></thead>
+                    <tbody>
+                        <tr><td class="border px-2 py-1">File gagal diunggah</td><td class="border px-2 py-1">Pastikan ukuran file &lt; 100MB dan format didukung</td></tr>
+                        <tr><td class="border px-2 py-1">Proses kompresi lama</td><td class="border px-2 py-1">Periksa koneksi internet atau ukuran file</td></tr>
+                        <tr><td class="border px-2 py-1">Tidak bisa mengunduh hasil</td><td class="border px-2 py-1">Coba refresh halaman dan ulangi proses</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="section-card">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-headset text-yellow-400 mr-2"></i>8. Dukungan</h2>
+            <ul class="list-disc list-inside mb-0">
+                <li>Email: <a href="mailto:support@kompresaja.com" class="text-blue-600">support@kompresaja.com</a></li>
+                <li>Website: <a href="#" class="text-blue-600">www.kompresaja.com/help</a></li>
+            </ul>
+        </div>
+        <div class="section-card mb-8">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-2 flex items-center"><i class="fas fa-code-branch text-yellow-400 mr-2"></i>9. Versi Aplikasi</h2>
+            <ul class="list-disc list-inside mb-0">
+                <li><b>Versi:</b> 1.0.0</li>
+                <li><b>Tanggal Rilis:</b> Juni 2025</li>
+                <li><b>Developer:</b> Tim Kompresaja</li>
+            </ul>
+        </div>
+        <div class="text-gray-500 text-sm mt-4 text-center">Manual ini diperbarui terakhir pada: <b>26 Juni 2025</b></div>
+        <div class="mt-8 text-center">
+            <a href="/" class="inline-block bg-gradient-to-r from-yellow-400 to-blue-500 text-white font-semibold px-6 py-2 rounded-lg shadow hover:from-blue-500 hover:to-yellow-400 transition-all duration-200"><i class="fas fa-arrow-left mr-2"></i>Kembali ke Beranda</a>
+        </div>
+    </div>
+</body>
+</html> 
